@@ -16,7 +16,7 @@ section {
 #hero-section {
   background-image: 
     linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
-    url("img/Whitehaven.jpg");
+    url("Whitehaven.jpg");
   background-size: cover;
   background-position: bottom;
   width: 100%;
