@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  position: relative;
+}
+
+.font {
+  font-family: "Alegreya", serif !important;
+  font-size: 20px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/* Hero Section */
+#hero-section {
+  background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url("img/Whitehaven.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  padding: 20%;
+  color: #f8f0e3;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(0,0,80);
+}
+
+/* Projects Section */
+#projects-section {
+  background-color: #BED7DC;
+  color: black;
+}
+
+.small-image {
+  width: auto;
+  height: 150px;
+  margin: 0 15px;
+}
+
+/* Mission Section */
+#mission-section {
+  background-color: #F6F5F2;
+  color: black;
+}
+
+#mission-section img {
+  width: 50%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #mission-section img {
+    width: 75%;
+  }
+}
+
+/* Skills Section */
+#skills-section {
+  background-color: #BED7DC;
+  color: black;
+}
+
+/* Contact Section */
+#contact-section {
+  background-color: #F6F5F2;
+  color: black;
+}
+
+#contact-section ion-icon:hover {
+  color: #007bff;
+}
+
+/* Inspiration Section */
+#inspiration-section {
+  background-color: #BED7DC;
+  color: black;
+}
+
+/* Footer Section */
+#footer-section {
+  width: auto;
+  height: 10px;
+  padding-top: 5px;
+  background-color: #E3E1D9;
+  color: black;
+  text-align: center;
+}
+
+/* Headshot */
+.headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid #d4d4d4;
+  display: block;
+  margin: auto;
+  background-position: center-bottom;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  #hero-section {
+    padding: 10%;
+  }
+
+  .headshot {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero-section {
+    padding: 5%;
+  }
+
+  .headshot {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Scroll Top */
+.scroll-top .navbar {
+  background-color: transparent !important;
+}
+
+/* Icons */
+.icon-large {
+  font-size: 48px;
+  padding: 8px;
+}
+
+.icon-text p {
+  max-width: 150px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+ion-icon {
+  font-size: 64px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+/* Carousel */
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+}
+
+.carousel-caption {
+  z-index: 500;
+  color: white;
+}
+
+/* Section Targets */
+#projects-target, #mission-target, #skills-target, #contact-target {
+  position: relative;
+  top: -100px;
+}
